@@ -1,0 +1,18 @@
+{
+    "name": "htmx-tic-tac-toe",
+    "description": "",
+    "version": "1.0.0",
+    "scripts": {
+        "setup-tailwind": "npx tailwindcss -i ./setup/input.css -o ./src/tailwind.css",
+        "setup-fiber": "go run .",
+        "setup-server": "npm run setup-tailwind && npm run setup-fiber"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/trioxtron/htmx-tic-tac-toe.git"
+    },
+
+    "devDependencies": {
+        "tailwindcss": "^3.4.1"
+    }
+}
